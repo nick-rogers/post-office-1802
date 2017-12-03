@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+
+html {
+font-size: 20px;
+}
+
+body {
+	margin: 0;
+	background-color: #E1C79C;
+}
+
+.main {
+	display: block;
+	width: 100%;
+	height: 0;
+	padding-bottom: 120%;
+	margin: 0 auto;
+	margin-top: 0px;
+	background-color: beige;
+	background-image: url(mapTexture2.jpg);
+	background-size: 126.2% 97.5%;
+	background-position: center;
+	background-position: -12.8vw -6.5vw;
+	background-repeat: no-repeat;
+
+}
+
+.title-sec {
+	position: absolute;
+	display: block;
+	width: 40vw;
+	height: 30vw;
+	margin-left: 5%;
+	background-image: url(title-text.png);
+	background-size: 100% 100%;
+	margin-top: 3%;
+	filter: brightness(80%);
+}
+
+.boxes {
+	position: absolute;
+	display: block;
+	width: 500px;
+	height: 750px;
+	margin-left: 12%;
+	margin-top: 650px;
+	background-color: blue;
+}
+
+.intro, .stat-sec {
+	display: block;
+	float: left;
+}
+
+.intro {
+	height: 150px;
+}
+
+.choose-stat, .buffer, .table {
+	display: block;
+	width: 500px;
+	float: left;
+}
+
+.choose-stat {
+	position: absolute;
+	height: 50px;
+	width: 550px;
+	border-style: solid;
+	border-width: 0.25px 0px 0.25px 0px;
+	border-color: #332109;
+	box-sizing: border-box;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+/*.buffer {
+	position: absolute;
+	height: 50px;
+	width: 400px;
+	border-style: solid;
+	border-width: 0.25px;
+	border-color: black;
+	box-sizing: border-box;
+	margin-top: 50px;
+}*/
+
+.headers {
+	position: absolute;
+	width: 200px;
+	display: block;
+	margin-right: 100px;
+	font-family: 'Libre Baskerville', serif;
+	margin-left: 10px;
+	font-size: 13px;
+	float: left;
+	margin-top: 120px;
+	color: #584531;
+	font-weight: bold;
+}
+
+.header2 {
+	width: 250px;
+	margin-left: 15vw;
+}
+
+.table {
+	height: 4.545%;
+	width: 400px;
+	border-style: solid;
+	border-width: 0px 0px 0.05px 0.15px;
+	border-color: #332109;
+	box-sizing: border-box;
+
+}
+
+.s {
+	display: block;
+	height: 100%;
+	width: 150px;
+	padding-left: 20px;
+	padding-top: 2px;
+	font-style: italic;
+	font-size: 0.7rem;
+	float: left;
+	font-family: 'Libre Baskerville', serif;
+	/*background-color: purple;*/
+	color: #584531;
+}
+
+.n {
+	display: block;
+	height: 100%;
+	width: 180px;
+	float: right;
+	font-size: 0.7rem;
+	font-family: 'Libre Baskerville', serif;
+	padding-top: 2px;
+	color: #584531;
+}
+
+.map {
+	display: block;
+	position: absolute;
+	width: 51.9vw;
+	height: 47.5vw;
+	background-image: url(normal.png);
+	background-size: 100% 100%;
+	opacity: 1;
+	-webkit-transition: background-image 0.5s ease-in-out;
+	transition: background-image 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	opacity: 1;
+	margin-left: 41.9vw;
+	margin-top: 5.4vw;
+}
+
+.links {
+	display: block;
+	float: left;
+	width: 33%;
+	height: 100%;
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	text-align: center;
+	color: #584531;
+	cursor: pointer;
+}
+
+.finger {
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-image: url(finger.png);
+	background-size: 100% 100%;
+	margin-left: -90px;
+	margin-top: -20px;
+	opacity: 0.7;
+}
+
+
+
+
+/*@media screen and (max-width: 1000px) {
+    .main {
+    	display: none;
+    }
+}*/
+
+
+
+/* RESPONSIVE BOXES */
+
+.boxes {
+	position: absolute;
+	display: block;
+	width: 35vw;
+	height: 0px;
+	margin-left: 12%;
+	margin-top: 36%;
+	background-color: blue;
+}
+
+.intro {
+	width: 10%;
+	height: 10vw;
+}
+
+.choose-stat {
+	width: 80%;
+}
+
+.links {
+	font-size: 0.8vw;
+	margin-left: 0vw;
+	margin-top: 1vw;
+}
+
+.finger {
+	width: 6.5vw;
+	height: 6.5vw;
+	margin-left: -6vw;
+}
+
+
+
+
+
+
+.stat-sec-1, .stat-sec-1-sorted, .stat-sec-2, .stat-sec-2-sorted, .stat-sec-3, .stat-sec-3-sorted {
+	width: 300px;
+	height: 0px;
+	margin-top: -2vw;
+}
+
+.stat-sec-1 {
+	display: block;
+}
+
+.stat-sec-1-sorted {
+	display: none;
+}
+
+.stat-sec-2 {
+	display: none;
+}
+
+.stat-sec-2-sorted {
+	display: none;
+}
+
+.stat-sec-3 {
+	display: none;
+}
+
+.stat-sec-3-sorted {
+	display: none;
+}
+
+
+
+
+
+
+.headers {
+	color: #332109;
+	font-size: 0.7vw;
+}
+
+.table {
+	/*height: 4.545%;*/
+	width: 28vw;
+	height: 1.5vw;
+}
+
+.s {
+	color: #683F28;
+	font-size: 0.85vw;
+}
+
+.n {
+	color: #683F28;
+	width: 100px;
+	font-size: 0.85vw;
+}
+
+.buffer {
+	height: 0px;
+}
+
+
+
+#l1 {
+	color: #683F28;
+	opacity: 0.7;
+}
+
+#l2 {
+	color: #683F28;
+	opacity: 0.7;
+}
+
+#l3 {
+	color: #683F28;
+	opacity: 0.7;
+}
+
+
+.summary {
+	display: block;
+	position: absolute;
+	width: 32vw;
+	height: 20vw;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -20vw;
+}
+
+.sum-text {
+	display: block;
+	width: 25vw;
+	height: 18vw;
+	float: left;
+	font-size: 0.6rem;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 0.9rem;
+	color: #683F28;
+}
+
+#sum-header {
+	font-size: 1rem;
+	font-family: 'Libre Baskerville', serif;
+	margin-bottom: 0rem;
+	color: #683F28;
+	font-weight: lighter;
+}
+
+.sort {
+	position: absolute;
+	display: block;
+	width: 2.5vw;
+	height: 6.8vw;
+	background-image: url(sort.png);
+	background-size: 100% 100%;
+	margin-left: -4.3vw;
+	margin-top: 8vw;
+	cursor: pointer;
+}
+
+.section-name {
+	display: block;
+	position: absolute;
+	font-size: 0.7rem;
+	font-family: 'Libre Baskerville', serif;
+	color: #683F28;
+	margin-top: -1.3rem;
+	margin-left: 0rem;
+	text-align: center;
+}
+
+
+
+
+
+
+/*.bars {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url(states-orig.png);
+	background-size: 100% 100%;
+	background-position: 0px 13px;
+	-webkit-transition: background-image 0.1s ease-in-out;
+	transition: background-image 0.1s ease-in-out;
+}
+
+.bars-new {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url(statesActive.png);
+	background-size: 100% 100%;
+	background-position: 0px 13px;
+	-webkit-transition: background-image 0.1s ease-in-out;
+	transition: background-image 0.1s ease-in-out;
+}*/
