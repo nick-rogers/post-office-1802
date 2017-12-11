@@ -5,6 +5,8 @@ var ogClass = true;
 
 var sectionNum = 1;
 var titleName = " ";
+var screenWidth = $(window).width();
+//alert(screenWidth);
 
 $('#l1').click(function(){
 	sectionNum = 1;
@@ -20,6 +22,9 @@ $('#l1').click(function(){
 	$('.stat-sec-1').fadeIn(600);
 	titleName = "TOTAL POSTAL EMPLOYMENT";
 	$('.section-name').text(titleName);
+
+	$('.finger').addClass('finger-new');
+	$('.finger').removeClass('finger');
 });
 
 $('#l2').click(function(){

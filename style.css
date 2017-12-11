@@ -44,7 +44,6 @@ body {
 	height: 750px;
 	margin-left: 12%;
 	margin-top: 650px;
-	background-color: blue;
 }
 
 .intro, .stat-sec {
@@ -142,8 +141,8 @@ body {
 .map {
 	display: block;
 	position: absolute;
-	width: 51.9vw;
-	height: 47.5vw;
+	width: 52vw;
+	height: 47.9vw;
 	background-image: url(normal.png);
 	background-size: 100% 100%;
 	opacity: 1;
@@ -151,8 +150,8 @@ body {
 	transition: background-image 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
 	opacity: 1;
-	margin-left: 41.9vw;
-	margin-top: 5.4vw;
+	margin-left: 41.75vw;
+	margin-top: 5.35vw;
 }
 
 .links {
@@ -199,7 +198,6 @@ body {
 	height: 0px;
 	margin-left: 12%;
 	margin-top: 36%;
-	background-color: blue;
 }
 
 .intro {
@@ -221,8 +219,34 @@ body {
 	width: 6.5vw;
 	height: 6.5vw;
 	margin-left: -6vw;
+	x-transition: all 1s ease-in-out;
+    animation: fingermove 1.7s infinite;
 }
 
+@keyframes fingermove {
+0% {
+	margin-left: -6.5vw;
+}
+50% {
+	margin-left: -6vw;
+}
+100% {
+	margin-left: -6.5vw;
+}
+}
+
+.finger-new {
+	width: 6.5vw;
+	height: 6.5vw;
+	margin-left: -6vw;
+	display: block;
+	position: absolute;
+	background-image: url(finger.png);
+	background-size: 100% 100%;
+	margin-left: -115px;
+	margin-top: -20px;
+	opacity: 0.7;
+}
 
 
 
@@ -266,6 +290,7 @@ body {
 .headers {
 	color: #332109;
 	font-size: 0.7vw;
+	margin-top: 10.5vw;
 }
 
 .table {
@@ -296,9 +321,11 @@ body {
 	opacity: 0.7;
 }
 
+
 #l2 {
 	color: #683F28;
 	opacity: 0.7;
+	margin-top: 8px;
 }
 
 #l3 {
@@ -359,9 +386,137 @@ body {
 	text-align: center;
 }
 
+.bottom {
+	position: absolute;
+	width: 100%;
+	height: 30vw;
+	background-image: url(bottom.png);
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	top: 90vw;
+	background-position: center top;
+	background-position: 0px -30vw;
+
+}
 
 
 
+@media screen and (max-width: 968px) {
+    .main {
+        width: 968px;
+        padding-bottom: 1200px;
+        background-position: 0px -50px;
+        background-size: 94% 71%;
+        background-position: -85px -47px;
+    }
+
+    .map {
+    	width:377px;
+    	height: 350px;
+    	margin-left: 315px;
+    	margin-top: 41px;
+    }
+
+    .boxes {
+    	width: 200px;
+    	height: 500px;
+    	margin-left: 80px;
+    	margin-top: 300px;
+    }
+
+    .intro {
+    	margin-left: 0px;
+    }
+
+    .table {
+    	width: 200px;
+    }
+
+    .n {
+    	width: 60px;
+    	font-size: 6px;
+    }
+
+    .s {
+    	width: 60px;
+    	font-size: 6px;
+    }
+
+    .stat {
+    	margin-top: 100px;
+    	width: 200px;
+    }
+
+    .headers {
+    	margin-top: -15px;
+    }
+
+    .boxes {
+		position: absolute;
+		display: block;
+		width: 200px;
+	}
+
+	.intro {
+		width: 10%;
+		height: 10vw;
+	}
+
+	.choose-stat {
+		width: 80%;
+	}
+
+	.links {
+		font-size: 6px;
+	}
+
+	.title-sec {
+		width: 300px;
+		height: 220px;
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+
+	.finger {
+		width: 50px;
+		height: 50px;
+		margin-top: -5px;
+		margin-left: -40px;
+	}
+
+	.sort {
+		width: 15px;
+		height: 40px;
+		margin-top: 100px;
+		margin-left: -20px;
+	}
+
+	.table {
+		height: 15px;
+	}
+
+	.headers {
+		margin-right: 0px;
+		font-size: 6px;
+		margin-left: 0px;
+	}
+
+	.header2 {
+		margin-left: 90px;
+	}
+}
+
+@media screen and (min-width: 1490px) {
+	.map {
+		margin-left: 42.2vw;
+		margin-top: 5.6vw;
+		width: 51.75vw;
+	}
+
+	.s {
+    	width: 200px;
+    }
+}
 
 
 /*.bars {
