@@ -14,7 +14,7 @@ $('#l1').click(function(){
 	$('.links').css('font-weight', 'normal');
 	$(this).css('font-weight', 'bold');
 	$('.links').css('color', '#683F28');
-	$(this).css('color', '#332109');
+	$(this).css('color', '#ad1b0d');
 	$('.links').css('opacity', '0.8');
 	$(this).css('opacity', '1');
 

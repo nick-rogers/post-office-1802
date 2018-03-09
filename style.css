@@ -6,7 +6,7 @@ font-size: 20px;
 
 body {
 	margin: 0;
-	background-color: #E1C79C;
+	background-color: #c19c7a;
 }
 
 .main {
@@ -16,7 +16,7 @@ body {
 	padding-bottom: 120%;
 	margin: 0 auto;
 	margin-top: 0px;
-	background-color: beige;
+	background-color: #c19c7a;
 	background-image: url(mapTexture2.jpg);
 	background-size: 126.2% 97.5%;
 	background-position: center;
@@ -150,8 +150,9 @@ body {
 	transition: background-image 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
 	opacity: 1;
-	margin-left: 41.8vw;
-	margin-top: 5.3vw;
+	/*margin-left: 42.8vw;*/
+	margin-left: 42.8%;
+	margin-top: 5.7%;
 }
 
 .links {
@@ -162,7 +163,7 @@ body {
 	font-family: 'Libre Baskerville', serif;
 	font-style: italic;
 	text-align: center;
-	color: #584531;
+	color: #ad1b0d;
 	cursor: pointer;
 }
 
@@ -317,19 +318,16 @@ body {
 
 
 #l1 {
-	color: #683F28;
 	opacity: 0.7;
 }
 
 
 #l2 {
-	color: #683F28;
 	opacity: 0.7;
 	margin-top: 8px;
 }
 
 #l3 {
-	color: #683F28;
 	opacity: 0.7;
 }
 
@@ -468,6 +466,7 @@ body {
 
 	.links {
 		font-size: 6px;
+		color: #ad1b0d
 	}
 
 	.title-sec {
@@ -503,6 +502,10 @@ body {
 
 	.header2 {
 		margin-left: 90px;
+	}
+
+	.bottom {
+		display: none;
 	}
 }
 
